@@ -1,0 +1,46 @@
+mandatory: Use of VurtualBox
+submit: signature.txt(@root)
+signature.txt: paste the signature of your machine's virtual disk.
+prohibition: snapshots
+
+Mandatory part
+Project:
+set up a sever. (following specific rules.)
+
+Forbidden:
+to install X.org (any graphics servers)
+
+[0]
+Choose:
+Debian or Rocky. (latest stable version)
+Debian is recommended for those new to system administration.
+
+Don't have to set up KDump in Rocky.
+SELinux must be running at startup in Rocky.
+AppArmor must be running at startup in Debian.
+
+[1]
+Create:
+Encrypted partitions(At least 2)
+Using LVM
+
+You will be asked to explain about the operating system you chose.
+You should know the differences between aptitude and apt, or what SELinux or AppAmor.
+
+Understand what you use!
+
+[2]
+Launch:
+An SSH service
+running on the mandatory port 4242.
+
+Must not be possible to connect using SSH as root.
+
+Use of SSH will be tested by setting up a new account.
+Understand how it works.
+
+[3]
+
+
+
+
