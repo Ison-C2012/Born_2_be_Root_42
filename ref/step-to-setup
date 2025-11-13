@@ -1,0 +1,39 @@
+#select install(choose cui)
+#select language
+#select location
+#select locale
+#enter hostname(set "debian" cuz maybe able to change after setup)
+#enter domain name(set "domain.org")
+#enter root password(set "********")
+#re-enter
+#enter username, to create user account(set "newuser")
+#select username
+#enter user password(set as login one)
+#re-enter
+#select the way of partitions
+#	Guided
+#		use entire disk
+#		use entire disk and set up LVM
+#		use entire disk and set up encrypted LVM
+#	Manual
+#(choose use encrypted LVM following Guide, no way manual)
+#select partitioning scheme
+#	all files in one partition
+#	separate /home partition
+#	separate /home, /var, and /tmp partitions
+#	separate /var and /srv, swap < 1GB (for servers)
+#	small-disk (< 10GB) partitioning scheme
+#(choose /home, /var, and /tmp to create more than 2 partitions)
+#Y/N write the partitioning scheme to disks(firstly, no)
+#all data on disk will be erased. Select disk to partition:
+#(SCSI (0,0,0) (sda))
+#select partitioning scheme(/home,/var,/tmp)
+#Y/N write the partitioning scheme to disks(yes)
+#Erasing data on SCSI3 (0, 0, 0), partition #5 (sda)
+#The installer is now overwriting SCSI3 (0, 0, 0), partition #5 (sda) with random data to prevent meta-infomation leaks from the enrypted volume. This step may be skipped by cancelling this action, albeit at the expense of a slight reduction of the quality of the encryption.
+#(no canceling...)
+#likely to occur error
+#(select cancel)
+#it didn't work. i could not click cancel.
+#Fn key flushing like crazy signal.
+#Finish this program.
